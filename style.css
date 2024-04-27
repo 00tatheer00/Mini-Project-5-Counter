@@ -1,0 +1,68 @@
+body {
+  background-image: url(./pexels-mikkel-kvist-16039120.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  /* 
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3); */
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  min-height: 350px;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+  /* background: #FEFFEA; */
+  /* border: 5px groove black; */
+  /* border-radius: 5px; */
+  /* color: #bbb; */
+
+
+  backdrop-filter: blur(4px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+
+
+
+  box-shadow:
+    -2.7px -2.7px 3.2px rgba(255, 255, 255, 0.07),
+    -4.5px -4.5px 7.8px rgba(0, 0, 0, 0.101),
+    -4.9px -4.9px 14.7px rgba(0, 0, 0, 0.125),
+    -1.2px -1.2px 26.1px rgba(0, 0, 0, 0.149),
+    24.8px 24.8px 48.9px rgba(0, 0, 0, 0.18),
+    63px 63px 117px rgba(0, 0, 0, 0.25);
+}
+
+.counter h1 {
+  color: #000;
+  font-size: 2rem;
+}
+
+#count {
+  font-size: 9rem;
+}
+
+#buttons {
+  display: inline-block;
+}
